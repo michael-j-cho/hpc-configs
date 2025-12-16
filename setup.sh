@@ -21,8 +21,7 @@ mv ~/.bashrc ~/.bashrc.old
 
 # Copy over .bashrc, .vimrc and starship.toml
 git clone https://github.com/michael-j-cho/hpc-configs.git
-cd hpc-configs
-cp -rf hpc-configs/.* ~/
+cp -rf hpc-configs/. ~/
 rm -rf hpc-configs
 
 source .bashrc
