@@ -6,7 +6,7 @@ if [ -f /etc/bashrc ]; then
 fi
 
 # Where local bins are stored
-. "$HOME/.local/bin/env"
+#. "$HOME/.local/bin/env"
 export PATH="$HOME/.local/bin:$PATH"
 
 # Create directories in scratch
